@@ -1,3 +1,1 @@
-web:  gunicorn nsbabrahapp.wsgi
-
-
+web: gunicorn nsbabrahapp:app
